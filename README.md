@@ -14,6 +14,15 @@ Provides Claude (and other MCP clients) with access to 3,388 engineering equatio
 
 ## Installation
 
+### Homebrew
+
+```bash
+brew tap joshuabryson/tap
+brew install eq-reference-mcp
+```
+
+### pip
+
 ```bash
 pip install eq-reference-mcp
 ```
