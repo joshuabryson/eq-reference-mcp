@@ -14,18 +14,12 @@ Provides Claude (and other MCP clients) with access to 3,388 engineering equatio
 
 ## Installation
 
-### Homebrew
-
 ```bash
 brew tap joshuabryson/tap
 brew install eq-reference-mcp
 ```
 
-### pip
-
-```bash
-pip install eq-reference-mcp
-```
+Or, from source: `pip install git+https://github.com/joshuabryson/eq-reference-mcp`
 
 On first run, the server downloads the equation and table databases (~6MB) to `~/.cache/eq-reference/`.
 
